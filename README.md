@@ -27,6 +27,31 @@ brew install font-meslo-lg-nerd-font
 brew install neovim
 ```
 
+- Powerlevel10k
+```
+brew install powerlevel10k
+```
+
+- zsh Auto Suggestions
+```
+brew install zsh-autosuggestions
+```
+
+- zsh Syntax Hihglighting
+```
+brew install zsh-syntax-highlighting
+```
+
+- Eza
+```
+brew install eza
+```
+
+- Zoxide
+```
+brew install zoxide
+```
+
 - Ripgrep
 ```
 brew install ripgrep
@@ -44,3 +69,9 @@ Symlink for zshrc
 ```
 ln -s "$HOME/.config/zsh/zshrc" "$HOME/.zshrc"
 ```
+
+Configure Powerlevel10k
+```
+p10k configure
+```
+Choose 'Lean' and '8 Colors'
