@@ -75,3 +75,31 @@ Configure Powerlevel10k
 p10k configure
 ```
 Choose 'Lean' and '8 Colors'
+
+- Raycast
+Remember to set up resizing window and app swtching in Raycast
+
+### Apps
+Hold Super (Return via Karabinar) and these keys to switch to these apps
+b - Brave
+a - Figma
+f - Finder
+g - Google Chrome
+m - Messages
+p - Plexamp
+s - Slack
+e - Spark Email
+w - Telegram
+t - Wezterm
+
+ ### Sizing windows
+Hold Semi Super (Tab via Karabinar) and
+j - Bottom Half
+p - Bottom Right Corner
+h - Left Half
+m - Maximize
+l - Right Half
+k - Top Half
+o - Top Right Corner
+
+
