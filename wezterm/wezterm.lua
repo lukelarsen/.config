@@ -107,22 +107,22 @@ config.keys = {
 		action = wezterm.action.TogglePaneZoomState,
 	},
 	{
-		mods = "CTRL",
+		mods = "LEADER",
 		key = "h",
 		action = wezterm.action.ActivatePaneDirection("Left"),
 	},
 	{
-		mods = "CTRL",
+		mods = "LEADER",
 		key = "j",
 		action = wezterm.action.ActivatePaneDirection("Down"),
 	},
 	{
-		mods = "CTRL",
+		mods = "LEADER",
 		key = "k",
 		action = wezterm.action.ActivatePaneDirection("Up"),
 	},
 	{
-		mods = "CTRL",
+		mods = "LEADER",
 		key = "l",
 		action = wezterm.action.ActivatePaneDirection("Right"),
 	},
