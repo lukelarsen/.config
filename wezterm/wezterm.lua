@@ -25,7 +25,21 @@ config.window_padding = {
 	bottom = 0,
 }
 config.window_decorations = "RESIZE"
-config.color_scheme = "tokyonight_night"
+-- Nightfly Theme
+-- https://github.com/bluz71/vim-nightfly-colors/blob/master/extras/nightfly-wezterm.toml
+config.colors = {
+	foreground = "#CBE0F0",
+	background = "#011423",
+	cursor_bg = "#47FF9C",
+	cursor_border = "#47FF9C",
+	cursor_fg = "#011423",
+	selection_bg = "#033259",
+	selection_fg = "#CBE0F0",
+	ansi = { "#1d3b53", "#fc514e", "#a1cd5e", "#e3d18a", "#82aaff", "#c792ea", "#7fdbca", "#a1aab8" },
+	brights = { "#7c8f8f", "#ff5874", "#21c7a8", "#ecc48d", "#82aaff", "#ae81ff", "#7fdbca", "#d6deeb" },
+	compose_cursor = "#e3d18a",
+	visual_bell = "#e3d18a",
+}
 config.window_background_opacity = 0.9
 config.macos_window_background_blur = 10
 
