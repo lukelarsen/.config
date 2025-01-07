@@ -62,6 +62,11 @@ brew install ripgrep
 brew install node
 ```
 
+- Yazi
+```
+brew install yazi ffmpegthumbnailer ffmpeg sevenzip jq poppler fd ripgrep fzf zoxide imagemagick font-symbols-only-nerd-font
+```
+
 ## Using
 Clone in to your home directory.
 
