@@ -1,2 +1,2 @@
-require("lukelarsen.core")
-require("lukelarsen.lazy")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")

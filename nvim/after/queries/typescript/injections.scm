@@ -37,7 +37,7 @@
   (#match? @func_name "^(css)$")
   arguments: (template_string
     (string_fragment) @injection.content
-    (#set! injection.language "scss")))
+    (#set! injection.language "css")))
 
 ; query
 ;; string html injection

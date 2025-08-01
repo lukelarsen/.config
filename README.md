@@ -97,7 +97,7 @@ e - Spark Email
 w - Telegram
 t - Wezterm
 
- ### Sizing windows
+### Sizing windows
 Hold Semi Super (Tab via Karabinar) and
 j - Bottom Half
 p - Bottom Right Corner
@@ -106,5 +106,3 @@ m - Maximize
 l - Right Half
 k - Top Half
 o - Top Right Corner
-
-

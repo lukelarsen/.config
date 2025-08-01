@@ -25,23 +25,42 @@ config.window_padding = {
 	bottom = 0,
 }
 config.window_decorations = "RESIZE"
+-- TokyoNight Moon
+-- https://github.com/folke/tokyonight.nvim/blob/main/extras/wezterm/tokyonight_moon.toml
+config.colors = {
+	foreground = "#c8d3f5",
+	background = "#222436",
+	cursor_bg = "#c8d3f5",
+	cursor_border = "#c8d3f5",
+	cursor_fg = "#222436",
+	selection_bg = "#2d3f76",
+	selection_fg = "#c8d3f5",
+	split = "#82aaff",
+	compose_cursor = "#ff966c",
+	scrollbar_thumb = "#2f334d",
+	ansi = { "#1b1d2b", "#ff757f", "#c3e88d", "#ffc777", "#82aaff", "#c099ff", "#86e1fc", "#828bb8" },
+	brights = { "#444a73", "#ff8d94", "#c7fb6d", "#ffd8ab", "#9ab8ff", "#caabff", "#b2ebff", "#c8d3f5" },
+}
+
 -- Nightfly Theme
 -- https://github.com/bluz71/vim-nightfly-colors/blob/master/extras/nightfly-wezterm.toml
-config.colors = {
-	foreground = "#CBE0F0",
-	background = "#011423",
-	cursor_bg = "#47FF9C",
-	cursor_border = "#47FF9C",
-	cursor_fg = "#011423",
-	selection_bg = "#033259",
-	selection_fg = "#CBE0F0",
-	ansi = { "#1d3b53", "#fc514e", "#a1cd5e", "#e3d18a", "#82aaff", "#c792ea", "#7fdbca", "#a1aab8" },
-	brights = { "#7c8f8f", "#ff5874", "#21c7a8", "#ecc48d", "#82aaff", "#ae81ff", "#7fdbca", "#d6deeb" },
-	compose_cursor = "#e3d18a",
-	visual_bell = "#e3d18a",
-}
-config.window_background_opacity = 0.9
-config.macos_window_background_blur = 10
+-- config.colors = {
+-- foreground = "#CBE0F0",
+-- background = "#1E222A",
+-- cursor_bg = "#47FF9C",
+-- cursor_border = "#47FF9C",
+-- cursor_fg = "#011423",
+-- selection_bg = "#033259",
+-- selection_fg = "#CBE0F0",
+-- ansi = { "#1d3b53", "#fc514e", "#a1cd5e", "#e3d18a", "#82aaff", "#c792ea", "#7fdbca", "#a1aab8" },
+-- brights = { "#7c8f8f", "#ff5874", "#21c7a8", "#ecc48d", "#82aaff", "#ae81ff", "#7fdbca", "#d6deeb" },
+-- compose_cursor = "#e3d18a",
+-- visual_bell = "#e3d18a",
+-- }
+
+config.window_background_opacity = 1.0
+-- config.window_background_opacity = 0.9
+-- config.macos_window_background_blur = 10
 
 -- NOT USING NOW
 -- Workspaces with mux are confusing and the resurrect function has
