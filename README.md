@@ -14,7 +14,9 @@ There are config files for Karabiner, nvim, and Wezterm.
 
 ```
 Take contents of warp dir and place in ~/.warp then go to settings in Warp and set the theme to Tokyo-night
+```
 
+```
 - Wezterm (Optional)
 ```
 
